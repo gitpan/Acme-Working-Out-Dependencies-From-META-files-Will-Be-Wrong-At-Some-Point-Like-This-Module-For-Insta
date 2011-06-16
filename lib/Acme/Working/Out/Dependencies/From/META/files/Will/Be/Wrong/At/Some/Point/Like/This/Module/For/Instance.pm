@@ -1,6 +1,6 @@
 package Acme::Working::Out::Dependencies::From::META::files::Will::Be::Wrong::At::Some::Point::Like::This::Module::For::Instance;
 BEGIN {
-  $Acme::Working::Out::Dependencies::From::META::files::Will::Be::Wrong::At::Some::Point::Like::This::Module::For::Instance::VERSION = '6.66';
+  $Acme::Working::Out::Dependencies::From::META::files::Will::Be::Wrong::At::Some::Point::Like::This::Module::For::Instance::VERSION = '9.99';
 }
 
 #ABSTRACT: Because there is nothing like being right
@@ -20,7 +20,7 @@ Acme::Working::Out::Dependencies::From::META::files::Will::Be::Wrong::At::Some::
 
 =head1 VERSION
 
-version 6.66
+version 9.99
 
 =head1 DESCRIPTION
 
@@ -33,9 +33,9 @@ and autogenerates a list of prereqs when C<Makefile.PL> is executed.
 
 So what exactly are the prereqs of this module ?
 
-The CPAN META specification L<CPAN::Meta::Spec> states that C<dynamic_config> <i>"should be set to a true value
+The CPAN META specification L<CPAN::Meta::Spec> states that C<dynamic_config> I<"should be set to a true value
 if the distribution performs some dynamic configuration (asking questions, sensing the environment, etc.) as part
-of its configuration."</i>. Almost all of the tools ( L<Module::Build> is the exception ) do not provide a way to
+of its configuration.">. Almost all of the tools ( L<Module::Build> is the exception ) do not provide a way to
 change this from the default which is C<0>.
 
 =head1 AUTHOR
